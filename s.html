@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h2>Add Employee</h2>
+    <form action="emp.php" method="post">
+        Name: <input type="text" name="empname"><br>
+        Salary: <input type="text" name="salary"><br>
+        <input type="submit" name="add" value="Add Employee">
+    </form>
+
+    <h2>View Employees</h2>
+    <form action="emp.php" method="get">
+        <input type="submit" name="view" value="View Employees">
+    </form>
+
+    <h2>Update Employee</h2>
+    <form action="emp.php" method="post">
+        Employee ID to Update: <input type="text" name="empid"><br>
+        New Name: <input type="text" name="empname"><br>
+        New Salary: <input type="text" name="salary"><br>
+        <input type="submit" name="update" value="Update Employee">
+    </form>
+
+    <h2>Delete Employee</h2>
+    <form action="emp.php" method="post">
+        Employee ID to Delete: <input type="text" name="empid"><br>
+        <input type="submit" name="delete" value="Delete Employee">
+    </form>
+</body>
+</html>
